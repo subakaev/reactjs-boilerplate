@@ -36,5 +36,12 @@
     "eslint-plugin-react": "^7.12.4",
     "jest": "^24.1.0",
     "jest-cli": "^24.1.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1"
   }
 }
