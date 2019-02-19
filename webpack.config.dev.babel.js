@@ -21,7 +21,6 @@ module.exports = {
     bundle: ['jquery', 'popper.js', 'bootstrap'],
   },
   output: {
-    path: path.join(__dirname, 'dist'),
     filename: '[name].js',
   },
   devServer: {
