@@ -2,12 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Main = props => (
-  <div>
-    <h1>Hello from ReactJS</h1>
+  <div className="container">
+    <h1 className="some-user-class">Hello from ReactJS</h1>
     <div>
-      <button onClick={props.decrement}>-</button>
+      <button className="btn btn-primary mr-3" onClick={props.decrement}>-</button>
       <span>{props.value}</span>
-      <button onClick={props.increment}>+</button>
+      <button className="btn btn-primary ml-3" onClick={props.increment}>+</button>
     </div>
   </div>
 );
