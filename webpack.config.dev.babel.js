@@ -1,7 +1,5 @@
 import '@babel/polyfill';
 
-import path from 'path';
-
 import webpack from 'webpack';
 
 import CopyWebpackPlugin from 'copy-webpack-plugin';
